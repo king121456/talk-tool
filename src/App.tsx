@@ -11,7 +11,7 @@ function App() {
   const [menuPosition, setMenuPosition] = useState<{ x: number; y: number } | null>(null);
   
   const [conversations] = useState<Conversation[]>([
-    { id: 1, name: "项目讨论 - 产品设计", date: "2024-03-15", status: 'active' },
+    { id: 1, name: "项目讨论11 - 产品设计", date: "2024-03-15", status: 'active' },
     { id: 2, name: "客户会议 - 需求分析", date: "2024-03-14", status: 'completed' },
     { id: 3, name: "团队会议 - 周报", date: "2024-03-13", status: 'pending' },
   ]);
